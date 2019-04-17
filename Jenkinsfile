@@ -21,6 +21,9 @@ pipeline {
           }
         }
       }
+      post {
+          always { 
+            emailext body: 'Test email': , recipientProviders: [[$class: 'DevelopersRecipientProvider']], subject: 'Test'
     }
   }
 }
