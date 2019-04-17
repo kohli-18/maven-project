@@ -23,7 +23,7 @@ pipeline {
       }
       post {
         success {
-          mail to: imrandevops9@gmail.com, subject: 'job is success', body: 'this is test'
+          mail to: 'imrandevops9@gmail.com', subject: 'job is success', body: 'this is test'
         }
       }
     }
