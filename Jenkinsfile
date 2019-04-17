@@ -25,6 +25,7 @@ pipeline {
         success {
           mail to: imrandevops9gmail.com, subject: 'job is success'
         }
+      }
     }
   }
 }
